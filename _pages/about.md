@@ -1,34 +1,81 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: tung.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
+  more_info: >
+
+[comment]: <> (    <p>555 your office number</p>)
+
+[comment]: <> (    <p>123 your address street</p>)
+
+[comment]: <> (    <p>Your City, State 12345</p>)
+
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a fourth-year PhD candidate in Computer Science at UCLA, advised by [Aditya Grover](https://aditya-grover.github.io/). I earned my Bachelor's degree in Computer Science from the Hanoi University of Science and Technology. Prior to my PhD, I spent two wonderful years at VinAI Research as an AI Resident, where I had the privilege of working under the supervision of [Hung Bui](https://sites.google.com/site/buihhung/) and collaborating with amazing colleagues like [Rui Shu](https://ruishu.io/) and [Tuan Pham](https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research:**  My research focuses on building large-scale foundation models to support scientific discovery, particularly in areas related to climate change, sustainability, and the physical sciences.
+
+**1. AI for Scientific Simulation.**  I develop machine learning models to simulate real-world phenomena such as weather and climate dynamics using large-scale scientific datasets. These models aim to be accurate, adaptable, and capable of representing uncertainty in complex systems.
+
+**2. AI for Experimental Design.**  I also work on using AI to solve optimization problems in scientific and engineering domains, such as molecular design and drug discovery. My goal is to build generalizable models that can perform across tasks with limited supervision, offering efficient and robust tools for real-world scientific discovery.
+
+
+<!-- 
+[comment]: <> (<details>)
+
+[comment]: <> (<summary> <b> Research Summary</b></summary>)
+
+[comment]: <> (<br>)
+
+[comment]: <> (Fundamentally, my works considers the following aspects of the SW distance:)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<b> <i>Slicing distributions.</i></b> The vanilla sliced Wasserstein &#40;SW&#41; distance naively treats all one-dimensional projections the same and independently by using the uniform distribution over projecting directions. To improve and generalize the SW, I propose to search for the best distribution over projecting distributions &#40;or the slicing distribution&#41; which can maximize the expected projected distance. )
+
+[comment]: <> (In particular, a regularized implicit family of distributions is introduced in <a href="https://arxiv.org/pdf/2002.07367.pdf">[ICLR'21]</a> and  explicit families &#40;von Mises-Fisher and Power Spherical&#41; are introduced in <a href="https://arxiv.org/pdf/2010.01787.pdf">[ICLR'21]</a>. Moreover, I introduce the usage of)
+
+[comment]: <> (amortized optimization to predict the optimal slicing distribution given two input probability measures in the setting which has various pairs of probability measures in <a href="https://arxiv.org/pdf/2203.13417.pdf">[NeurIPS'22]</a> and <a href="https://arxiv.org/pdf/2301.04791.pdf">[ICML'23]</a>. To enhance further the quality of projecting directions, I break the independence between them by imposing the first order Markov structure in <a href="https://arxiv.org/pdf/2301.03749.pdf">[NeurIPS'23]</a>. )
+
+[comment]: <> (To avoid unstable optimization and model misspecification in designing slicing model, I propose the energy-based slicing distribution  that is parameter-free and has the density proportional to an energy function of the projected one-dimensional Wasserstein distance in <a href="https://arxiv.org/pdf/2304.13586.pdf">[NeurIPS'23]</a>. To push forward further the optimization-free direction, I propose the random-path projecting direction in <a href="https://arxiv.org/pdf/2401.15889.pdf">[ICML'24]</a>.)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<b> <i>Projecting operators.</i></b> The vanilla sliced Wasserstein distance utilizes the Radon Transform as the projecting operator. The Radon Transform simply takes the inner product between the supports of a probability measure)
+
+[comment]: <> (and  a projecting direction as the supports of the one-dimensional projected probability measure. To generalize the projecting operator to tensor spaces, I use the convolution operator to project probability measures over tensors to one-dimension in <a href="https://arxiv.org/pdf/2204.01188.pdf">[NeurIPS'22]</a>. In addition, I connect deep learning &#40;neural networks&#41; techniques to sliced Wasserstein by proposing Overaparameterized Radon Transform and Hierarchical Radon Transform in <a href="https://arxiv.org/pdf/2209.13570.pdf">[ICLR'23]</a>. Recently, I proposed hierarchical hybrid Radon Transform and hierarchical hybrid sliced Wasserstein distance for dealing with heterogeneous joint distributions in <a href="https://arxiv.org/pdf/2404.15378.pdf">[Arxiv'24]</a>.)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<b> <i>Numerical approximation.</i></b>  The SW distance is usually estimated by Monte Carlo integration due to the intractable expectation with respect to the slicing distribution. To reduce the variance of the Monte Carlo estimator,)
+
+[comment]: <> (I first propose control variates which are based on the closed-form of the Wasserstein-2 distance between two Gaussians in <a href="https://arxiv.org/pdf/2305.00402.pdf">[ICLR'24]</a>. Importantly, the proposed control variates have linear time complexity and space complexity. In addition, I propose to use low-discrepancy sequences on the sphere &#40;Quasi-Monte Carlo&#41; to approximate sliced Wasserstein in <a href="https://arxiv.org/pdf/2309.11713.pdf">[ICLR'24]</a>. Moreover, we propose Randomized Quasi-sliced Wasserstein, an unbiased estimation of sliced Wasserstein which are based on randomizing low-discrepancy sequences.)
+
+[comment]: <> (<br>)
+
+[comment]: <> (<br>)
+
+[comment]: <> (On the application side, my works  adopt optimal transport, Wasserstein distance, and sliced Wasserstein distance in point-clouds applications <a href="https://arxiv.org/pdf/2301.04791.pdf">[ICML'23]</a>, 3D mesh deformation <a href="https://arxiv.org/pdf/2305.17555.pdf">[ICLR'24]</a>, generative models &#40;GANs, Diffusion Models&#41; <a href="https://arxiv.org/pdf/2203.13417.pdf">[NeurIPS'22]</a> <a href="https://arxiv.org/pdf/2401.15889.pdf">[Arxiv'24]</a>, domain adaptation <a href="https://proceedings.mlr.press/v162/nguyen22d/nguyen22d.pdf">[ICML'22]</a>, <a href="https://proceedings.mlr.press/v162/nguyen22e/nguyen22e.pdf">[ICML'22]</a>, multimodal representation learning <a href="https://openreview.net/pdf?id=l60EM8md3t">[ICLR'24]</a>, 3D shape correspondence learning <a href="https://openreview.net/pdf?id=lz8a6ThNOi">[CVPR'24]</a>, and other tasks that need to deal with probability measures.)
+
+[comment]: <> (</details>)
+
+[comment]: <> (<br>) -->

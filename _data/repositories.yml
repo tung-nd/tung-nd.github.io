@@ -1,14 +1,13 @@
-github_users:
-  - torvalds
-  - alshedivat
+#github_users:
+#  - tung-nd
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - microsoft/ClimaX
+  - tung-nd/stormer
+  - aditya-grover/climate-learn
+  - tung-nd/TNP-pytorch
+  - tung-nd/ExPT
+  - VinAIResearch/TPC-tensorflow
+  - VinAIResearch/PC3-pytorch

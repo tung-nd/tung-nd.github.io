@@ -1,12 +1,16 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+[CS 161 - Fundamentals of Artificial Intelligence](https://web.cs.ucla.edu/~guyvdb/teaching/cs161/2022f/): Teaching Assistant, Fall 2022
 
-Organize your courses by years, topics, or universities, however you like!
+[CS261 - Deep Generative Models](https://catalog.registrar.ucla.edu/course/2023/comsci261?siteYear=2023): Teaching Assistant, Winter 2024
+
+[comment]: <> (For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.)
+
+[comment]: <> (Organize your courses by years, topics, or universities, however you like!)

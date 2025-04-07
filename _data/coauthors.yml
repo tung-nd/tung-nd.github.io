@@ -1,34 +1,40 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"grover":
+  - firstname: [ "Aditya" ]
+    url: https://aditya-grover.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"zhao":
+  - firstname: ["Siyan"]
+    url: https://siyan-zhao.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"pham":
+  - firstname: ["Tuan"]
+    url: https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"pham*":
+  - firstname: ["Tuan"]
+    url: https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"shu":
+  - firstname: ["Rui"]
+    url: https://ruishu.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"shu*":
+  - firstname: ["Rui"]
+    url: https://ruishu.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"bui":
+  - firstname: ["Hung"]
+    url: https://sites.google.com/site/buihhung/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"kapoor":
+  - firstname: ["Ashish"]
+    url: https://scholar.google.com/citations?user=4D1n8scAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"gupta":
+  - firstname: ["Jayesh"]
+    url: https://rejuvyesh.com/
+
+"brandstetter":
+  - firstname: ["Johannes"]
+    url: https://brandstetter-johannes.github.io/
+
