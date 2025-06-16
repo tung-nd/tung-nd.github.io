@@ -1,22 +1,37 @@
 <div class="news">
   {% if site.news != blank %}
-    <ul>
-      {% assign news = site.news | reverse %}
-      {% if include.limit and site.announcements.limit %}
-        {% assign news_limit = site.announcements.limit %}
-      {% else %}
-        {% assign news_limit = site.news | size %}
+    {% assign news_size = site.news | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+        style="max-height: 15vw"
       {% endif %}
-      {% for item in news limit: news_limit %}
-        <li>
-          {% if item.inline %}
-            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-          {% else %}
-            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+    >
+      <table class="table table-sm table-borderless">
+        {% assign news = site.news | reverse %}
+        {% if include.limit and site.announcements.limit %}
+          {% assign news_limit = site.announcements.limit %}
+        {% else %}
+          {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            {% if item.show_date %}
+              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            {% else %}
+              <th scope="row" style="width: 20%"></th>
+            {% endif %}
+            <td>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
   {% else %}
     <p>No news so far...</p>
   {% endif %}
