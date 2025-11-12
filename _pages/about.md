@@ -22,11 +22,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a fourth-year PhD candidate in Computer Science at UCLA, advised by [Aditya Grover](https://aditya-grover.github.io/). I earned my Bachelor's degree in Computer Science from the Hanoi University of Science and Technology. Prior to my PhD, I spent two wonderful years at VinAI Research as an AI Resident, where I had the privilege of working under the supervision of [Hung Bui](https://sites.google.com/site/buihhung/) and collaborating with amazing colleagues like [Rui Shu](https://ruishu.io/) and [Tuan Pham](https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en).
+I’m a final-year PhD candidate in Computer Science at UCLA, advised by [Aditya Grover](https://aditya-grover.github.io/). I earned my Bachelor's degree in Computer Science from the Hanoi University of Science and Technology. Prior to my PhD, I spent two wonderful years at VinAI Research as an AI Resident, where I had the privilege of working under the supervision of [Hung Bui](https://sites.google.com/site/buihhung/) and collaborating with amazing colleagues like [Rui Shu](https://ruishu.io/) and [Tuan Pham](https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en).
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
-**Research:**  My research focuses on building large-scale foundation models to support scientific discovery, particularly in areas related to climate change, sustainability, and the physical sciences.
+**Research:**  My research focuses on building large-scale foundation models for scientific simulation and reasoning, particularly in areas related to climate change, sustainability, and the physical sciences.
 
 **1. AI for Scientific Simulation.**  I develop machine learning models to simulate real-world phenomena such as weather and climate dynamics using large-scale scientific datasets. These models aim to be accurate, adaptable, and capable of representing uncertainty in complex systems.
 
