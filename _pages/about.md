@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a final-year PhD candidate in Computer Science at UCLA, advised by [Aditya Grover](https://aditya-grover.github.io/). I earned my Bachelor's degree in Computer Science from the Hanoi University of Science and Technology. Prior to my PhD, I spent two wonderful years at VinAI Research as an AI Resident, where I had the privilege of working under the supervision of [Hung Bui](https://sites.google.com/site/buihhung/) and collaborating with amazing colleagues like [Rui Shu](https://ruishu.io/) and [Tuan Pham](https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en).
+I’m a final-year PhD candidate in Computer Science at UCLA, advised by [Aditya Grover](https://aditya-grover.github.io/). I earned my Bachelor's degree in Computer Science from the Hanoi University of Science and Technology. Prior to my PhD, I spent two wonderful years at VinAI Research as an AI Resident, where I had the privilege of working under the supervision of [Hung Bui](https://sites.google.com/site/buihhung/) and collaborating with amazing colleagues like [Rui Shu](https://ruishu.io/) and [Tuan Pham](https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en). **I’m currently looking for full-time Research Scientist roles in industry (start: Summer 2026).**
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
